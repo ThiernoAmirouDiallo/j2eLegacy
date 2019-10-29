@@ -11,10 +11,13 @@
     <title>Inscription page</title>
 </head>
 <body>
-<H3>Bienvenue</H3>
-<p>Super site pour ne rater aucune notification</p>
+<h3>Vous avez été inscrit avec succès</h3>
+<p>
+    Prénom : ${person.firstname} <br>
+    Nom : ${person.lastname} <br>
+    Email : ${person.email} <br>
+</p>
 
-<a href="inscription">Cliquez ici pour inscrire</a>
-
+<a href="index">Retour à la page d'accueil</a>
 </body>
 </html>

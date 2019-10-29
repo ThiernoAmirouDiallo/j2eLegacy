@@ -7,10 +7,22 @@
 
     <servlet>
         <servlet-name>homeServlet</servlet-name>
-        <servlet-class>servlet.BackendServlet</servlet-class>
+        <servlet-class>servlet.HomeServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>inscriptionServlet</servlet-name>
+        <servlet-class>servlet.InscriptionServlet</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>homeServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>inscriptionServlet</servlet-name>
+        <url-pattern>/inscription</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>

@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class BackendServlet extends HttpServlet {
+public class HomeServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
 
