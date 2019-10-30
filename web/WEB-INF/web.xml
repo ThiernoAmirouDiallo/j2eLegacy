@@ -24,5 +24,4 @@
         <url-pattern>/inscription</url-pattern>
     </servlet-mapping>
 
-
 </web-app>

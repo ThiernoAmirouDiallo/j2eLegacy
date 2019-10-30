@@ -30,7 +30,7 @@ public class InscriptionServlet extends HttpServlet {
             String lastname = request.getParameter("lastname");
             String email = request.getParameter("email");
 
-            Person person = new Person(firstname, lastname, email);
+            Person person = new Person(null,firstname, lastname, email);
 
             //render the view
             request.setAttribute("person", person);
